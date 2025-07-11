@@ -1,5 +1,4 @@
-# Minimal Setup: Basic CLI tools
-
+tap "ahmetb/kubectx"
 brew "git"
 brew "zsh"
 brew "neovim"

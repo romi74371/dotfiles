@@ -1,5 +1,4 @@
-# Server Setup: No GUI, just CLI tools and services
-
+tap "ahmetb/kubectx"
 brew "git"
 brew "zsh"
 brew "neovim"
@@ -15,6 +14,5 @@ brew "bat"
 brew "starship"
 brew "docker"
 brew "podman"
-brew "tmux"
 brew "python"
 brew "node"

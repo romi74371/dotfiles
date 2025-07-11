@@ -1,4 +1,4 @@
-cask_args appdir: "/Applications"
+tap "ahmetb/kubectx"
 
 # Essentials
 cask "warp"
@@ -22,10 +22,10 @@ brew "hadolint"
 brew "docker-slim"
 
 # Kubernetes CLI Tools
-brew "k9s"
-brew "kubectx"
-brew "kubens"
+brew "ahmetb/kubectx/kubens"
+brew "ahmetb/kubectx/kubectx"
 brew "helm"
+brew "k9s"
 brew "stern"
 
 # Git Tools
@@ -50,11 +50,11 @@ brew "p7zip"
 brew "httpie"
 brew "fd"
 brew "ripgrep"
-brew "exa"
+brew "eza"
 brew "zoxide"
 brew "bottom"
 
-# Runtimes via asdf (use only if needed)
+# Runtimes via asdf
 brew "pyenv"
 brew "rbenv"
 brew "nvm"
