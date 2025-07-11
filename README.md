@@ -30,3 +30,14 @@ cd ~/dotfiles
 ```
 
 This sets the correct Brewfile variant and launches Dotbot.
+
+
+## 🧹 Reset Script
+
+To wipe your dotfiles setup and start over, run:
+
+```bash
+./reset.sh
+```
+
+This will delete previously linked files and configs.
