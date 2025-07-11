@@ -1,1 +1,0 @@
-Dotbot would be cloned here as a submodule in a real repo.
