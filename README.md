@@ -56,3 +56,26 @@ Or if you prefer HTTPS:
 ```bash
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
+
+
+## 🧠 Optional Tools
+
+### 🌀 Oh My Zsh
+
+If you're using the default `.zshrc`, you can install Oh My Zsh like this:
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+Otherwise, the config will skip it.
+
+### 🚀 Starship Prompt
+
+To get the styled prompt:
+
+```bash
+brew install starship
+```
+
+The `.zshrc` automatically loads Starship if it's installed.

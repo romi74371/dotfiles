@@ -1,10 +1,21 @@
 # Starship prompt configuration
 
 add_newline = false
+format = "$directory$git_branch$python$character"
 
 [character]
-success_symbol = "[➜](green)"
-error_symbol = "[✗](red)"
+success_symbol = "[➜](bold green) "
+error_symbol = "[✗](bold red) "
 
 [directory]
+style = "bold blue"
 truncation_length = 3
+
+[git_branch]
+symbol = " "
+style = "bold purple"
+
+[python]
+symbol = "🐍 "
+format = "[$symbol$version]($style) "
+style = "bold yellow"
