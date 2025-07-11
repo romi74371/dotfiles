@@ -5,7 +5,7 @@ This dotfiles setup is optimized for terminal-first workflows using tools like W
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/youruser/dotfiles.git ~/dotfiles && cd ~/dotfiles && ./install.sh
+git clone https://github.com/romi74371/dotfiles.git ~/dotfiles && cd ~/dotfiles && ./install.sh
 ```
 
 ## 🛠️ Tools Included
@@ -48,7 +48,7 @@ This setup uses [Dotbot](https://github.com/anishathalye/dotbot) to manage insta
 ### ✅ How to install
 
 ```bash
-git clone --recursive https://github.com/youruser/dotfiles.git ~/dotfiles
+git clone --recursive https://github.com/romi74371/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ./install
 ```
