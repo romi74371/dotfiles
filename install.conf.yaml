@@ -1,0 +1,27 @@
+- clean:
+    ~/.config: ['nvim', 'starship.toml']
+- link:
+    ~/.zshrc: .zshrc
+    ~/.gitconfig: .gitconfig
+    ~/.aliases: .aliases
+    ~/.functions: .functions
+    ~/.vimrc: .vimrc
+    ~/.tmux.conf: .tmux.conf
+    ~/.tool-versions: .tool-versions
+    ~/.config/starship.toml: .config/starship.toml
+    ~/.config/nvim: .config/nvim
+- shell:
+  - command: |
+      echo "Select a Brewfile variant to install:"
+      echo "1) Full (default)"
+      echo "2) Minimal"
+      echo "3) Server"
+      read -p "Choose [1-3]: " choice
+      case "$choice" in
+        2) brew bundle --file=Brewfile.minimal ;;
+        3) brew bundle --file=Brewfile.server ;;
+        *) brew bundle --file=Brewfile ;;
+      esac
+    description: Choose and install a Brewfile variant
+  - command: git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+    description: Clone tmux plugin manager

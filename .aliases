@@ -1,0 +1,8 @@
+alias gs="git status"
+alias ga="git add"
+alias gp="git push"
+alias gl="git log --oneline --graph"
+alias ..="cd .."
+alias ll="ls -lah"
+alias dcu="docker compose up"
+alias dcd="docker compose down"

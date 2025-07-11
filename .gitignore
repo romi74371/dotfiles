@@ -1,0 +1,19 @@
+
+# Secrets and sensitive files
+.env
+.secrets/
+.gpg/
+.ssh/
+*.key
+*.pem
+
+# System files
+.DS_Store
+*.swp
+
+# Plugin dirs
+.vim/plugged/
+.tmux/plugins/
+node_modules/
+.idea/
+.vscode/

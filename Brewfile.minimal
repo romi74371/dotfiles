@@ -1,0 +1,15 @@
+# Minimal Setup: Basic CLI tools
+
+brew "git"
+brew "zsh"
+brew "neovim"
+brew "tmux"
+brew "htop"
+brew "fzf"
+brew "bat"
+brew "ripgrep"
+brew "fd"
+brew "curl"
+brew "wget"
+brew "jq"
+brew "starship"
