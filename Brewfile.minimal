@@ -1,4 +1,3 @@
-tap "ahmetb/kubectx"
 brew "git"
 brew "zsh"
 brew "neovim"

@@ -3,4 +3,10 @@ set number
 set tabstop=4
 set shiftwidth=4
 set expandtab
-colorscheme gruvbox
+set background=dark
+
+try
+  colorscheme onedark
+catch
+  colorscheme default
+endtry

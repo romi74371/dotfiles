@@ -1,5 +1,3 @@
-tap "ahmetb/kubectx"
-
 # Essentials
 cask "warp"
 cask "wezterm"
@@ -22,8 +20,6 @@ brew "hadolint"
 brew "docker-slim"
 
 # Kubernetes CLI Tools
-brew "ahmetb/kubectx/kubens"
-brew "ahmetb/kubectx/kubectx"
 brew "helm"
 brew "k9s"
 brew "stern"

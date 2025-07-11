@@ -41,3 +41,18 @@ To wipe your dotfiles setup and start over, run:
 ```
 
 This will delete previously linked files and configs.
+
+
+## 🔧 Manual Step: Install tmux plugin manager (TPM)
+
+Since TPM uses Git over SSH, install it manually:
+
+```bash
+git clone git@github.com:tmux-plugins/tpm.git ~/.tmux/plugins/tpm
+```
+
+Or if you prefer HTTPS:
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```

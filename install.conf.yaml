@@ -14,5 +14,4 @@
 - shell:
   - command: brew bundle --file=$BREWFILE
     description: Install packages
-  - command: git clone git@github.com:tmux-plugins/tpm.git ~/.tmux/plugins/tpm
     description: Clone tmux plugin manager
